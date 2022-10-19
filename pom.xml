@@ -32,13 +32,9 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://localhost:8081/repository/abc//</url>
+            <url>http://localhost:8081/repository/simpleapp-release/</url>
         </repository>
-        <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://localhost:8081/repository/abc-snapshot//</url>
-        </snapshotRepository>
+        
     </distributionManagement>
   <dependencies>
   	<dependency>

@@ -31,8 +31,12 @@
             <name>Internal Releases</name>
             <url>http://localhost:8081/repository/simpleapp-release//</url>
      </repository>
-     <url>http://localhost:8081/repository/simpleapp-snapshot/</url>
-    </distributionManagement>
+     <snapshotRepository>
+            <id>deployment</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://localhost:8081/repository/simpleapp-snapshot/</url>
+        </snapshotRepository>
+       </distributionManagement>
   <dependencies>
   	<dependency>
   		<groupId>javax.servlet</groupId>

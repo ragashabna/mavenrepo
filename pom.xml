@@ -25,7 +25,11 @@
       </plugin>
     </plugins>
   </build>
-   http://localhost:8081/repository/simpleapp-snapshot/
+  <distributionManagement>
+    <snapshot>
+      <id>deploymentNexus</id>
+      <name>interenal snapshot></name>
+        <url>http://localhost:8081/repository/simpleapp-snapshot/</url>
   <dependencies>
   	<dependency>
   		<groupId>javax.servlet</groupId>

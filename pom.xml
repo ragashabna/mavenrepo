@@ -30,7 +30,7 @@
     <snapshotRepository>
       <id>deploymentNexus</id>
       <name>interenal snapshot releases></name>
-        <url>http://localhost:8081/repository/simpleapp-snapshot/</url>
+        <url>http://localhost:8081/#browse/browse:simpleapp-snapshot</url>
       </snapshotRepository>
     </distributionManagement>
   <dependencies>
